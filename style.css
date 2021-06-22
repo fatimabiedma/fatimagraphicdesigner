@@ -120,7 +120,8 @@ font-family: 'Montserrat Extrabold', sans-serif; }
     color: #36b7a9;
     font-size: 40px;
     font-family: 'Bebas Neue', cursive; 
-    padding-bottom: 20px;}
+    padding-bottom: 20px;
+  }
 
 .card{
   margin-right: 30px;
@@ -202,7 +203,7 @@ font-family: 'Montserrat Extrabold', sans-serif; }
     background-color: transparent !important;
 }
 
-
+/*social media*/
 
 
 
@@ -215,6 +216,7 @@ font-family: 'Montserrat Extrabold', sans-serif; }
         border-radius: 0;
     }
 }
+
 
 
 
