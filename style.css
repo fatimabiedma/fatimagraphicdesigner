@@ -1,0 +1,239 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Staatliches&display=swap");
+
+.paddingOntop{
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+
+.paddingOntopException{
+  padding-top: 50px;
+  padding-bottom: 0px;
+}
+
+.align-items-center {
+  justify-content: center;
+  align-items: center; }
+
+.container-fluid {
+  align-items: center;
+  justify-content: center;
+  padding-right: 0px;
+  padding-left: 0px; }
+
+.tituloPortada--tamañotituloPortada {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center; }
+
+.lightbox {
+  padding-bottom: 100px; }
+
+.align-items-center {
+  justify-content: center;
+  align-items: center; }
+
+.container-fluid {
+  align-items: center;
+  justify-content: center; }
+
+.tituloPortada--tamañotituloPortada {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center; }
+
+.lightbox {
+  padding-bottom: 100px; }
+
+.bg-light {
+  background-color: #36b7a9 !important; }
+..bg-light--paddingImage{
+  margin-right: 600px;
+}
+
+header {
+  background-color: #36b7a9; }
+
+nav {
+  background-color: #36b7a9; }
+
+.navbar navbar-expand-lg navbar-light bg-light {
+  background-color: #36b7a9; }
+
+
+.thumbnail { 
+ position: relative; } 
+
+.caption { 
+ position: absolute; 
+ top: 20%; 
+ left: 0; 
+ width: 100%; 
+font-family: 'Montserrat Extrabold', sans-serif; }
+.caption--color{
+  color: white;
+  padding-top: 3%;
+  font-size: 500%;
+}
+.caption--colorBlack{
+  color: black;
+  font-size: 500%;
+  padding-top: 3%;
+}
+
+.inicioQuiensoy {
+  justify-content: center;
+  text-align: center;
+  align-items: center; }
+  .inicioQuiensoy__titulo {
+    color: #36b7a9;
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive; }
+    .inicioQuiensoy__titulo .inicioQuiensoy__titulo__parrafo {
+      size: 14px;
+      color: black;
+      font-family: 'Montserrat Bold', sans-serif; }
+
+.aboutMe {
+  padding-top: 10px;
+  background-color: #eaeaea;
+  justify-content: center;
+  text-align: center;
+  align-items: center; }
+  .aboutMe__titulo {
+    color: #36b7a9;
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive; }
+    .aboutMe__titulo .inicioQuiensoy__titulo__parrafo {
+      size: 14px;
+      color: black;
+      font-family: 'Montserrat Bold', sans-serif; }
+
+.typeDesign {
+  background-color: black !important;
+  align-items: center;
+  justify-content: center; }
+  .typeDesign__typeOfDesignText {
+    color: #36b7a9;
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive; 
+    padding-bottom: 20px;}
+
+.card{
+  margin-right: 30px;
+}
+.modificandoelFooter {
+  text-align: center;
+  background-color: black;
+  color: white; }
+  .modificandoelFooter__subfinalFooter {
+    font-size: 16px;
+    padding-top: 4%; }
+    .modificandoelFooter__subfinalFooter--tamaño {
+      font-size: 11px;
+      padding-bottom: 5px; }
+
+.main {
+  background-color: #fff;
+}
+.trabajosPortfolio {
+  padding-bottom: 30px; }
+
+.conteinerContacto {
+  padding-top: 5px;
+  background-color: white;
+  }
+
+  .form-inline {
+    justify-content: center;
+  }
+
+
+/*GALERIA DE IMAGENES*/
+
+.container.gallery-container {
+    background-color: #fff;
+    color: #35373a;
+    min-height: 100vh;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    max-width: 800px;
+    margin: 25px auto;
+    color: #888;
+    font-size: 18px;
+}
+
+.tz-gallery {
+    padding: 40px;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    margin-bottom: 30px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.tz-gallery img {
+    border-radius: 4px;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+
+
+
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+
+    .container.gallery-container {
+        border-radius: 0;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+  .tituloPortada--tamaÃ±otituloPortada{
+  font-size: 200%;
+  }
+
+
+
+
+
+@media (min-width: 320px) {
+  .caption--color{
+  font-size: 200%;}
+    .caption--colorBlack{
+  font-size: 200%;}
+
+.align-items-center{
+  justify-content: center!important;
+  align-items: center;
+}
