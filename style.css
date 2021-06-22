@@ -151,7 +151,10 @@ font-family: 'Montserrat Extrabold', sans-serif; }
   .form-inline {
     justify-content: center;
   }
-
+.redesSociales{
+  padding: 0px;
+  margin: 0px;
+}
 
 /*GALERIA DE IMAGENES*/
 
